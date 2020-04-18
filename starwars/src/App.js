@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CharacterList from './components/CharacterList'
 import './App.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
+      <CharacterList />
     </div>
   );
 }
